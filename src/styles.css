@@ -1,0 +1,36 @@
+html {
+  background-image: url(https://previews.123rf.com/images/kotenko/kotenko1910/kotenko191000044/131470503-feliz-navidad-y-feliz-a%C3%B1o-nuevo-frontera-sobre-fondo-rojo-decoraci%C3%B3n-festiva-de-ramas-de-abeto-bolas.jpg);
+  background-size: fill;
+  background-repeat: no-repeat;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  backdrop-filter: blur(12px);
+}
+
+#root {
+  display: grid;
+  place-content: center;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: white;
+  padding: 24px;
+  border-radius: 4px;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-family: "Mountains of Christmas", cursive;
+  margin-bottom: 24px;
+}
